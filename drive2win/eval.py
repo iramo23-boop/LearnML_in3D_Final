@@ -66,7 +66,7 @@ def run_policy(package: dict, seed: int, steps: int = 650, smoothing: float = 0.
 
         d = np.linalg.norm(track - pos, axis=1)
         idx = int(np.argmin(d))
-        checkpoints.add(idx // 30)
+        checkpoints.add(idx // 25)
         if d[idx] > 7.5:
             crashes += 1
             # soft reset toward track; still counts as mistake
