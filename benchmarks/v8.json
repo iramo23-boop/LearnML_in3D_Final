@@ -8,7 +8,7 @@
     99
   ],
   "summary": {
-    "complete_runs": 3,
+    "complete_runs": 0,
     "total_runs": 3,
     "mean_checkpoints": 10.0,
     "mean_crashes": 0.0,
@@ -17,19 +17,19 @@
   "runs": [
     {
       "seed": 42,
-      "complete": true,
+      "complete": false,
       "max_cp": 10,
       "crashes": 0.0
     },
     {
       "seed": 7,
-      "complete": true,
+      "complete": false,
       "max_cp": 10,
       "crashes": 0.0
     },
     {
       "seed": 99,
-      "complete": true,
+      "complete": false,
       "max_cp": 10,
       "crashes": 0.0
     }

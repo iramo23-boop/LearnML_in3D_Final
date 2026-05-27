@@ -74,7 +74,7 @@ def run_policy(package: dict, seed: int, steps: int = 650, smoothing: float = 0.
             speed *= 0.55
         path.append(pos.copy())
 
-    completed = len(checkpoints) >= 10
+    completed = len(checkpoints) >= 12
     return {
         "seed": seed,
         "complete": bool(completed),
